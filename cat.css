@@ -1,0 +1,36 @@
+*{
+padding:0;
+margin:0;
+}
+header{
+height:100px;
+margin:10px 50px 10px 50px;
+border-bottom:solid 1px black;
+}
+li{
+list-style-type:none;
+height:70px;
+margin-top:10px;
+}
+
+a{
+text-decoration:none;
+}
+nav li{
+display:inline;
+}
+ul{
+border-bottom:solid 1px black;
+margin:10px 50px 10px 50px;
+}
+#one
+{
+color:black;
+}
+#one:hover{
+color:red;
+}
+
+section{
+float:left;
+margin:10px 50px 10px 50px;}
