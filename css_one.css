@@ -44,6 +44,7 @@ li{
 }
 a{
 	text-decoration:none;
+	color:inherit; /*링크의 색상 제거*/
 }
 
 section{
