@@ -2,6 +2,10 @@
 margin:0;
 padding:0;
 }
+.clear
+{
+	clear:both; /*새로운 줄 시작*/
+}
 body{
 	color:#212121;
 	font-family:"굴림";
@@ -53,7 +57,7 @@ section{
 	
 }
 #sn_box h3{
-	float=left;
+	float:left;
 	margin-left:590px ;
 }
 #sn_box{
