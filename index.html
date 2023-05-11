@@ -2,6 +2,14 @@
 <html>
 <head>
 <link href="css_one.css" type="text/css"rel="stylesheet"> 
+<script>
+	function over(obj){
+		obj.src="web_image/mainlogo2.png";
+	}
+	function out(obj){
+		obj.src="web_image/mainlogo.png";
+	}
+</script>
 </head>
 <body>
 	<header>
@@ -15,7 +23,9 @@
 		<div id="logo">
 		 	<div class="box">
 		 		<div id="mainlogo">
-		 			<img src="web_image/mainlogo.png" width="70" height="70">
+		 			<img src="web_image/mainlogo.png" width="70" height="70"
+					     	onmouseover="over(this)"
+		 				onmouseout="out(this)">
 		 		</div>	
 		 	</div>
 		</div>
