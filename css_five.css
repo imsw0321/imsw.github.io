@@ -50,7 +50,14 @@ a{
 section{
 	height:500px;
 }
-
+#protect_box h3{
+	float:left;
+	margin-left:590px ;
+}
+#protect_box{
+	padding-top:30px ;
+	padding-bottom:30px ;
+}
 td{
 	text-align:center;
 }
