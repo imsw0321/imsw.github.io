@@ -52,11 +52,11 @@ section{
 }
 #protect_box h3{
 	float:left;
-	margin-left:590px ;
+	margin-left:590px;
+	padding-bottom:30px;
 }
 #protect_box{
 	padding-top:30px ;
-	padding-bottom:30px ;
 }
 table{
 	margin-left:auto;
