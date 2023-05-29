@@ -61,7 +61,7 @@ section{
 .adopt_box{
 	width:900px;
 	margin: 0 auto;
-	border: 1px dotted blueviolet; /*제거해야함*/
+	
 }
 footer{
 	height:100px;
