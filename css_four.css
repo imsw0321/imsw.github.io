@@ -51,6 +51,11 @@ section{
 	height:500px;
 	
 }
+#goods_box h4{
+	float:left;
+	margin-left:680px;
+	padding-bottom:30px;
+}
 #goods_box{
 	padding-top:30px ;
 	border:solid 1px blue;/*제거해야함*/
