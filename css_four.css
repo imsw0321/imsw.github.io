@@ -34,7 +34,7 @@ header{
 	border-bottom:solid 1px #B7B7B7;
 	padding:20px 10px 20px 20px;
 }
-li{
+ul li{
 	list-style:none;
 }
 #mainmenu li{
@@ -50,6 +50,15 @@ a{
 section{
 	height:500px;
 	
+}
+#goods_box{
+	padding-top:30px ;
+	border:solid 1px blue;/*제거해야함*/
+}
+.checklist_box{
+	width:720px;
+	margin: 0 auto;
+	border: 1px solid pink; /*제거해야함*/
 }
 #boxx{
 	width:1300px;
