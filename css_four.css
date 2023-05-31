@@ -50,11 +50,13 @@ section{
 	height:500px;
 	
 }
-#goods_box h4{
-	float:left;
-	margin-left:680px;
-	padding-bottom:30px;
+#submenu li{
+	display:inline;
+	font-size:18px;
+	margin-left:120px;
+	
 }
+
 #goods_box{
 	padding-top:30px ;
 }
