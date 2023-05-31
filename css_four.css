@@ -17,7 +17,6 @@ header{
 .box{
 	width:1300px;
 	margin: 0 auto;
-	border: 1px solid blueviolet;
 }
 #top_text{
 	float:left;
@@ -58,12 +57,10 @@ section{
 }
 #goods_box{
 	padding-top:30px ;
-	border:solid 1px blue;/*제거해야함*/
 }
 .checklist_box{
 	width:720px;
 	margin: 0 auto;
-	border: 1px solid pink; /*제거해야함*/
 }
 #boxx{
 	width:1300px;
