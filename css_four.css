@@ -47,7 +47,7 @@ a{
 }
 
 section{
-	height:3000px;
+	height:3500px;
 	
 }
 #submenu li{
@@ -65,11 +65,10 @@ section{
 	width:830px;
 	margin: 0 auto;
 }
-#boxx{
+.subbox{
 	width:1300px;
-	height:300px;
 	margin: 0 auto;
-	border:solid 1px blue;
+	background-color:#F6F1F1;
 }
 footer{
 	height:100px;
