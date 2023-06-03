@@ -70,6 +70,10 @@ section{
 	margin: 0 auto;
 	background-color:#F6F1F1;
 }
+#goods_box h4{
+	float:left;
+	margin-left:320px ;
+}
 footer{
 	height:100px;
 	border:solid 1px red;
