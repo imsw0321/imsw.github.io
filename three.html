@@ -111,12 +111,41 @@
 			<article id="pum">
 				<h4>영양제 및 예방약 쇼핑몰</h4><br>
 				<p>
-					<a href="https://drmypet.co.kr" target="_blank">1.맞춤 영양 마이펫닥터<br>(위 클릭시 사이트로 이동)</a><br>
-					<iframe src="https://drmypet.co.kr/product/list.html?cate_no=90"width="830" height="500"></iframe><br><br>
-					<a href="https://vets.co.kr" target="_blank">2.베츠<br>(위 클릭시 사이트로 이동)</a><br>
-					<iframe src="https://vets.co.kr/product/list.html?cate_no=24"width="830" height="500"></iframe>
+					1.맞춤 영양 마이펫닥터<br>(irame 누르면 3초 후 이동됩니다.)<br>
+					<iframe id="img1" src="https://drmypet.co.kr/product/list.html?cate_no=90"width="830" height="500"onmouseover="startTimer1(3000)" onmouseout="cancelTimer1()"></iframe><br><br>
+					2.베츠<br>(irame 누르면 3초 후 이동됩니다.)<br>
+					<iframe id="img2"src="https://vets.co.kr/product/list.html?cate_no=24"width="830" height="500"onmouseover="startTimer2(3000)" onmouseout="cancelTimer2()"></iframe>
 				</p>
 			</article>
+				
+			<script>
+				let timerID1 = null;
+				let timerID2 = null; 
+
+				function startTimer1(time) {
+				timerID1 = setTimeout("load('https://drmypet.co.kr/product/list.html?cate_no=90')", time);
+				document.getElementById("img1"); }
+
+				function startTimer2(time) {
+				timerID2 = setTimeout("load('https://vets.co.kr/product/list.html?cate_no=24')", time);
+				document.getElementById("img2"); }
+
+				function cancelTimer1(){ 
+					if(timerID1 != null)
+					clearTimeout(timerID1);
+				}
+
+				function cancelTimer2(){ 
+					if(timerID2 != null)
+					clearTimeout(timerID2);
+				}
+				function load(url){
+					window.location=url;
+				}
+				</script>
+				
+				
+		  
 			</div>		
 		</div>
 	
